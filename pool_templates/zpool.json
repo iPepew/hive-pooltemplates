@@ -1246,5 +1246,43 @@
                  "template": "%WAL%.%WORKER_NAME%"
              }
         }
+    },
+	{
+        "coin": "PEPEW",
+        "servers": [
+            {
+                "geo": "Europe",
+                "urls": [
+                    "xelisv2-pepew.eu.mine.zpool.ca:4833"
+                ]
+            },
+            {
+                "geo": "N.America",
+                "urls": [
+                    "xelisv2-pepew.na.mine.zpool.ca:4833"
+                ]
+            },
+            {
+                "geo": "South East Asia",
+                "urls": [
+                    "xelisv2-pepew.sea.mine.zpool.ca:4833"
+                ]
+            },
+            {
+                "geo": "Japan",
+                "urls": [
+                    "xelisv2-pepew.jp.mine.zpool.ca:4833"
+                ]
+            }
+        ],
+		"miners": {
+           "SRBMiner-MULTI":{
+				"url":"stratum+tcp://%URL%",
+				"algo":"xelishashv2_pepew",
+				"pass": "c=PEPEW,zap=PEPEW",
+				"worker":"%WORKER_NAME%",
+				"template":"%WAL%.%WORKER_NAME%"
+				}
+        }
     }
 ]
