@@ -109,25 +109,5 @@
         "miners": {
             "_prototype": "miners_ethash"
         }
-    },
-    {
-        "coin": "PEPEW",
-        "servers": [
-            {
-                "geo": "ASIA",
-                "urls": [
-                    "poolkh.com.com:4468"
-                ]
-            }
-        ],
-        "miners": {
-            "_prototype": "miners_memehash",
-            "srbminer": {
-                "url": "stratum+tcp://%URL%",
-                "algo": "memehash",
-                "template": "%WAL%.%WORKER_NAME%",
-                "pass": "x"
-            }
-        }
     }
 ]
