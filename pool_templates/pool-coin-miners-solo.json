@@ -8,37 +8,6 @@
     }
   },
   {
-    "coin": "PEPEW",
-    "servers": [
-      {
-        "geo": "North America",
-        "urls": [
-          "na.coin-miners.info:5001"
-        ]
-      },
-      {
-        "geo": "Europe",
-        "urls": [
-          "eu.coin-miners.info:5001"
-        ]
-      },
-      {
-        "geo": "Europe2",
-        "urls": [
-          "eu2.coin-miners.info:5001"
-        ]
-      }
-    ],
-    "miners": {
-      "srbminer": {
-        "url": "stratum+tcp://%URL%",
-        "algo": "memehash",
-        "pass": "m=solo",
-        "template": "%WAL%.%WORKER_NAME%"
-      }
-    }
-  },
-  {
     "coin": "RXD",
     "servers": [
       {
