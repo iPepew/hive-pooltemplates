@@ -4241,153 +4241,161 @@
     }
   },
   {
-    "coin": "PEPEW",
-    "servers": [
-      {
+    "coin": "PEPEW", // coin name
+    "servers": [ // pool addresses array
+      { // geo element
         "geo": "USA-Central LOW vardiff start",
         "urls": [
-          "us-cent.mining4people.com:4176"
+          "us-cent.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "us-cent.mining4people.com:24176"
+          "us-cent.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
         "geo": "USA-Central HIGH vardiff start",
         "urls": [
-          "us-cent.mining4people.com:14176"
+          "us-cent.mining4people.com:14176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "us-cent.mining4people.com:34176"
+          "us-cent.mining4people.com:34176" // pool server URL  and port  
         ]
       },
       {
-        "geo": "USA-East LOW vardiff start",
+        "geo": "USA-East LOW vardiff start", 
         "urls": [
-          "us-east.mining4people.com:4176"
+          "us-east.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "us-east.mining4people.com:24176"
+          "us-east.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
-        "geo": "USA-East HIGH vardiff start",
+        "geo": "USA-East HIGH vardiff start", 
         "urls": [
-          "us-east.mining4people.com:14176"
+          "us-east.mining4people.com:14176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "us-east.mining4people.com:34176"
+          "us-east.mining4people.com:34176" // pool server URL  and port 
         ]
       },
       {
         "geo": "USA-West LOW vardiff start",
         "urls": [
-          "us-west.mining4people.com:4176"
+          "us-west.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "us-west.mining4people.com:24176"
+          "us-west.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
         "geo": "USA-West HIGH vardiff start",
         "urls": [
-          "us-west.mining4people.com:14176"
+          "us-west.mining4people.com:14176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "us-west.mining4people.com:34176"
+          "us-west.mining4people.com:34176" // pool server URL  and port
         ]
       },
       {
         "geo": "Europe LOW vardiff start",
         "urls": [
-          "eu.mining4people.com:4176"
+          "eu.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "eu.mining4people.com:24176"
+          "eu.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
         "geo": "Europe HIGH vardiff start",
         "urls": [
-          "eu.mining4people.com:14176"
+          "eu.mining4people.com:14176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "eu.mining4people.com:34176"
+          "eu.mining4people.com:34176" // pool server URL  and port
         ]
       },
       {
         "geo": "Australia LOW vardiff start",
         "urls": [
-          "au.mining4people.com:4176"
+          "au.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "au.mining4people.com:24176"
+          "au.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
         "geo": "Australia HIGH vardiff start",
         "urls": [
-          "au.mining4people.com:14176"
+          "au.mining4people.com:14176" // pool server URL  and port 
         ],
         "ssl_urls": [
-          "au.mining4people.com:34176"
+          "au.mining4people.com:34176" // pool server URL  and port
         ]
       },
       {
-        "geo": "Brazil LOW vardiff start",
+        "geo": "Brazil LOW vardiff start", 
         "urls": [
-          "br.mining4people.com:4176"
+          "br.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "br.mining4people.com:24176"
+          "br.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
         "geo": "Brazil HIGH vardiff start",
         "urls": [
-          "br.mining4people.com:14176"
+          "br.mining4people.com:14176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "br.mining4people.com:34176"
+          "br.mining4people.com:34176" // pool server URL  and port
         ]
       },
       {
         "geo": "India LOW vardiff start",
         "urls": [
-          "in.mining4people.com:4176"
+          "in.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "in.mining4people.com:24176"
+          "in.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
         "geo": "India HIGH vardiff start",
         "urls": [
-          "in.mining4people.com:14176"
+          "in.mining4people.com:14176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "in.mining4people.com:34176"
+          "in.mining4people.com:34176" // pool server URL  and port
         ]
       },
       {
         "geo": "Asia LOW vardiff start",
         "urls": [
-          "asia.mining4people.com:4176"
+          "asia.mining4people.com:4176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "asia.mining4people.com:24176"
+          "asia.mining4people.com:24176" // pool server URL  and port
         ]
       },
       {
         "geo": "Asia HIGH vardiff start",
         "urls": [
-          "asia.mining4people.com:14176"
+          "asia.mining4people.com:14176" // pool server URL  and port
         ],
         "ssl_urls": [
-          "asia.mining4people.com:34176"
+          "asia.mining4people.com:34176" // pool server URL  and port
         ]
       }
-    ]
+    ],
+	 "miners": { // miner's settings section
+           "SRBMiner-MULTI":{
+				"url":"stratum+tcp://%URL%",
+				"algo":"xelishashv2_pepew",
+				"worker":"%WORKER_NAME%",
+				"template":"%WAL%"
+				}
+        }
   },
   {
     "coin": "PUG",
