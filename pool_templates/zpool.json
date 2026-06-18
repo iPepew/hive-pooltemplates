@@ -1197,6 +1197,22 @@
         }
     },
     {
+  "coin": "Zpool-hoohash-pepew",
+  "servers": [
+    {"geo": "Europe", "urls": ["hoohash-pepew.eu.mine.zpool.ca:8335"]},
+    {"geo": "North America", "urls": ["hoohash-pepew.na.mine.zpool.ca:8335"]},
+    {"geo": "South East Asia", "urls": ["hoohash-pepew.sea.mine.zpool.ca:8335"]},
+    {"geo": "Japan", "urls": ["hoohash-pepew.jp.mine.zpool.ca:8335"]}
+  ],
+  "miners": {
+    "custom": {
+      "url": "stratum+tcp://%URL%",
+      "template": "%WAL%",
+      "pass": "c=%COIN%,zap=PEPEW"
+    }
+  }
+},
+    {
         "coin": "Zpool-equihash125",
         "servers": [
             {
